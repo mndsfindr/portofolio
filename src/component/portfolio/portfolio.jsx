@@ -14,7 +14,7 @@ const portfolio = () => {
           <div className='portfolio__item-image'>
             <img src={IMG1} alt='' style={{ width: '300px' }}/>
           </div>
-          <h3>This Is a portfolio item title</h3>
+          <h3>Tugas Form Login</h3>
           <div className='portfolio__item-cta'>
             <a href='https://github.com' className='btn' target='_blank'>Github</a>
           </div>
@@ -23,7 +23,7 @@ const portfolio = () => {
           <div className='portfolio__item-image'>
             <img src={IMG2} alt='' style={{ width: '300px' }}/>
           </div>
-          <h3>This Is a portfolio item title</h3>
+          <h3>Tugas Input Data</h3>
           <div className='portfolio__item-cta'>
             <a href='https://github.com' className='btn' target='_blank'>Github</a>
           </div>
