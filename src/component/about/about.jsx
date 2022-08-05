@@ -40,11 +40,13 @@ const about = () => {
           </article>
           </div>
           
+          <div className='about__cardl'>
           <article className='about__card'>
             <FaAddressBook className="about__icon" />
             <h5>Address</h5>
             <small>Jl Tahir Gg.Kharisma 1 NO 75</small>
           </article>
+          </div>
 
         <p>
         Halo, saya adalah seorang siswa dari program studi Rekayasa Perangkat lunak.

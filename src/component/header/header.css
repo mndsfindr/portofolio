@@ -41,7 +41,7 @@ header {
 
 /* ============== ME ============== */
 .me {
-  background: var(--color-primary);
+  background: var(--color-bg-variant);
   width: 22rem;
   height: 30rem;
   position: absolute;
@@ -65,7 +65,7 @@ header {
 /* ============== MEDIA QUERTES (MEDIUM DEVICE) ============== */
 @media screen and (max-width: 1024px) {
   .header {
-    height: 150vh;
+    height: 155vh;
     position: center;
   }
   .header__socials{
@@ -76,7 +76,7 @@ header {
 /* ============== MEDIA QUERTES (SMALL DEVICE) ============== */
 @media screen and (max-width: 620px) {
   header {
-    height: 100vh;
+    height: 160vh;
   }
 
   .header__socials,

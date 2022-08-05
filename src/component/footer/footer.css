@@ -1,5 +1,5 @@
 footer{
-    background: var(--color-primary);
+    background: #eaded2;
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -61,7 +61,7 @@ footer a{
 /*============= MEDIA QUERIES (SMALL DEVICES)=============*/
 @media screen and (max-width: 600px){
     #footer{
-        transform: translateY(270%);
+        transform: translateY(50%);
         width: 100%;
     }
     .permalinks{

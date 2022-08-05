@@ -39,3 +39,11 @@
         gap: 1rem;
   }  
 }
+
+/* ============== MEDIA QUERTES (SMALL DEVICE) ============== */
+@media screen and (max-width: 600px) {
+    .portfolio__container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }    
+}

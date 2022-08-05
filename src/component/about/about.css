@@ -45,6 +45,13 @@
     transition: var(--transition);
 }
 
+.about__cardl{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 1rem;
+    gap: 1.5rem;
+}
+
 .about__card:hover {
     background: var(--color-light);
     color: var(--color-bg-);
@@ -88,7 +95,7 @@
 
     .about__me{
         width: 50%;
-        margin: 2rem auto 4ren;
+        margin: 2rem auto 4rem;
     }
 
     .about__content{
@@ -99,16 +106,16 @@
 /* ============== MEDIA QUERTES (SMALL DEVICE) ============== */
 @media screen and (max-width: 600px) {
     .about__me{
-        width: 65%;
+        width: 45%;
         margin: 0 auto 3rem;
     }
 
-    .about__cards{
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+    .about__cardl{
+        margin-top: 2rem;
     }
 
     .about__content{
+        margin-top: 5rem;
         text-align: center;
     }
 
