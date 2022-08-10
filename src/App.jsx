@@ -9,13 +9,22 @@ import Footer from './component/footer/footer'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 const App = () => {
+
+  const [sapa, setSapa] = useState('')
+  const [name, setName] = useState('SIAP?')
+  const [siap, setSiap] = useState ('')
+
+  const benar = {
+    name, setName, siap, setSiap, sapa, setSapa
+  }
+
   return (
     <Router>
     <>
        <Nav/>
        <Routes >
-       <Route exact path='/' element={<Header/>} />
-       <Route exact path='/about' element={<About />} />
+       <Route exact path='/' element={<Header benar={benar} />} />
+       <Route exact path='/about' element={<About/>}/>
        <Route exact path='/experience' element={<Experience />} />
        <Route exact path='/portfolio' element={<Portfolio />} />
        <Route exact path='/contact' element={<Contact />} />

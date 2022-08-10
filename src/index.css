@@ -35,7 +35,7 @@ html {
 
 body{
   font-family: "Poppins", sans-serif;
-  background: var(--color-bg);
+  background: var(--color-bg-variant);
   color: var(--color-white);
   line-height: 1,7rem;
   background-image: url(../src/assets/background.jpg);
@@ -101,9 +101,9 @@ a:hover {
   transition: var(--transition);
 }
 
-.btn {
-  background: var(--color-white);
-  color: var(--color-bg);
+.btn:hover {
+  background: black;
+  color: var(--color-white);
   border-color: transparent;
 }
 
@@ -111,6 +111,8 @@ a:hover {
   background: var(--color-primary);
   color: var(--color-bg);
 }
+
+
 
 img {
   display: block;

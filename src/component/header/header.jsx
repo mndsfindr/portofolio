@@ -4,13 +4,29 @@ import CTA from './CTA'
 import ME from '../../assets/me.png'
 import HeaderSocials from './HeaderSocials'
 
-const header = () => {
+const header = ({benar}) => {
+  const {name, setName} = benar
+  const {siap, setSiap} = benar
+  const {sapa, setSapa} = benar
+
+function orang() {
+  setName ("Amanda Sofie Indriani");
+}
+function kerja() {
+  setSiap ("Rekayasa Perngkat Lunak")
+}
+function hai(){
+  setSapa("HALLO")
+}
   return (
     <header>
       <div className="container header__container">
-        <h5>Get Me Know</h5>
-        <h1>Amanda Sofie Indriani</h1>
-        <h5 className="text-light">Fullstack Developer</h5>
+        <div className='title'>
+          <h5>{sapa}</h5>
+          <h1>{name}</h1>
+          <h5>{siap}</h5>
+        </div>
+        <button className='btn btn-primary' onClick={() => {hai(); orang(); kerja(); }}><i><b>TEKAN</b></i></button>
         <CTA />
         <HeaderSocials/>
 

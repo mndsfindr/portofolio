@@ -1,12 +1,12 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about1.jpeg'
-import {FaBirthdayCake} from 'react-icons/fa'
+import {FaBirthdayCake, FaStoreAltSlash} from 'react-icons/fa'
 import {FaSchool} from 'react-icons/fa'
 import {CgGenderMale} from 'react-icons/cg'
 import {FaAddressBook} from 'react-icons/fa'
 
-const about = () => {
+const about = ({salah}) => {
   return (
     <section id='about'>
       <h5>Get To Know</h5>
