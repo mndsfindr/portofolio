@@ -1,12 +1,12 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about1.jpeg'
-import {FaBirthdayCake, FaStoreAltSlash} from 'react-icons/fa'
+import {FaBirthdayCake} from 'react-icons/fa'
 import {FaSchool} from 'react-icons/fa'
 import {CgGenderMale} from 'react-icons/cg'
 import {FaAddressBook} from 'react-icons/fa'
 
-const about = ({salah}) => {
+const about = ({}) => {
   return (
     <section id='about'>
       <h5>Get To Know</h5>
@@ -15,7 +15,7 @@ const about = ({salah}) => {
       <div className='container about__container'>
        <div className='about__me'>
         <div className='about__me-image'>
-          <img src={ME} alt='about image' style={{ width: "350px" }} />
+          <img src={ME} alt='about image' style= {{ width: "350px" }} />
         </div>
        </div>
 

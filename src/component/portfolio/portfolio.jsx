@@ -16,7 +16,7 @@ const portfolio = () => {
           </div>
           <h3>Tugas Form Login</h3>
           <div className='portfolio__item-cta'>
-            <a href='https://github.com' className='btn' target='_blank'>Github</a>
+            <a href='https://github.com' className='btn' target="-blank">Github</a>
           </div>
         </article>
         <article className='portfolio__item'>
@@ -25,7 +25,7 @@ const portfolio = () => {
           </div>
           <h3>Tugas Input Data</h3>
           <div className='portfolio__item-cta'>
-            <a href='https://github.com' className='btn' target='_blank'>Github</a>
+            <a href='https://github.com' className='btn' target="-blank">Github</a>
           </div>
         </article>
       </div>
