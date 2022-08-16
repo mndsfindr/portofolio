@@ -13,7 +13,7 @@ function orang() {
   setName ("Amanda Sofie Indriani");
 }
 function kerja() {
-  setSiap ("Rekayasa Perngkat Lunak")
+  setSiap ("Rekayasa Perangkat Lunak")
 }
 function hai(){
   setSapa("HALLO")
