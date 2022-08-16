@@ -1,11 +1,9 @@
 ul {
+    display: grid;
     margin: 0;
     padding: 0;
     background-color: #c9b09b;
-    z-index: 2;
-    position: fixed;
-    top: 0;
-    width: 100%;
+    overflow: hidden;
 }
 
 .object {
@@ -17,7 +15,7 @@ li {
 }
 
 li a {
-    display: block;
+    display: inline-block;
     text-align: center;
     padding: 13px 12px;
 }

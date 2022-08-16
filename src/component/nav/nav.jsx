@@ -20,7 +20,7 @@ const array = [
 ];
 
 const Nav = () => {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
   return (<Box>
     <List>
       <ListItem divider>
@@ -31,7 +31,7 @@ const Nav = () => {
       </ListItem>
     </List>
     <Collapse in={open}>
-      <List sx={{ width: 0, }}>
+      <List sx={{ marginLeft: 0 }}>
         {array?.map((listElm, index) => (
           <ListItem divider key={index}>
             <ListItemButton onClick={() => setOpen(false)}>
